@@ -345,10 +345,6 @@ img {
   padding-bottom: 32px;
 }
 
-.team-social-container {
-  padding-top: 8px;
-}
-
 .team-social-list {
   display: flex;
   gap: 24px;
@@ -543,19 +539,10 @@ img {
   justify-content: center;
 }
 .footer-social-item {
-  /* display: flex;
-
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background: #4d5ae5;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer; */
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-social-icon {
-  width: 24px;
-  height: 24px;
+  fill: #f4f4fd;
 }
 .footer-social-block {
   display: flex;
